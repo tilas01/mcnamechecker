@@ -50,7 +50,7 @@ def main():
         f.close()
         print("\nA list.txt file has been created for you but you must put usernames in it manually.")
         print("Add names to list.txt and relaunch this application.\n")
-        a = input("Press enter to exit...")
+        input("Press enter to exit...")
         sys.exit()
     print("Grabbing config...\n")
     '''
@@ -164,7 +164,7 @@ def main():
     print("Available usernames:")
     print(*acc, sep = "\n")
     print("\nAll successful checks have been saved to logs.txt...")
-    a=input("Press enter to exit...")
+    input("Press enter to exit...")
 
 
 if __name__ == '__main__':
